@@ -16,8 +16,9 @@ const getCurrentUTCTimeHMS = () => {
 }
 
 const getCurrentUTCMillisecond = () => {
-  const milliseconds = currentDate.getUTCMilliseconds().toString();
-  return `${milliseconds}`
+  // const milliseconds = currentDate.getUTCMilliseconds().toString();
+  const currentUTCTimeMilliseconds = new Date().getTime();
+  return `${currentUTCTimeMilliseconds}`
 }
 
 // Updating the Current Day of the Week and Current UTC Time elements in the HTML page
