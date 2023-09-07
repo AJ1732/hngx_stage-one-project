@@ -16,7 +16,7 @@ const getCurrentUTCTimeHMS = () => {
 }
 
 const getCurrentUTCMillisecond = () => {
-  const milliseconds = currentDate.getUTCMilliseconds();
+  const milliseconds = currentDate.getUTCMilliseconds().toString();
   return `${milliseconds}`
 }
 
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const currentUTCMillisecondElement = document.querySelector('[data-testid="currentUTCTime"]');
 
   currentDayElement.textContent = `Current Day of the Week: ${getCurrentDayOfWeek()}`;
-  currentUTCTimeElementHMS.textContent = `Current UTC Time: ${getCurrentUTCTimeHMS()}`;
+  currentUTCTimeElementHMS.textContent = `${getCurrentUTCTimeHMS()}`;
   currentUTCMillisecondElement.textContent = `Current UTC Time: ${getCurrentUTCMillisecond()}`;
 });
 

@@ -21,7 +21,7 @@ body {
 }
 
 main {
-  width: 320px;
+  width: 80%;
   height: 100vh;
   color: white;
   margin: auto;
@@ -36,6 +36,8 @@ main {
 [data-testid="slackDisplayImage"] {
   width: 320px;
   height: 320px;
+  margin-top: 1rem;
+  border-radius: 10px;
   object-fit: cover;
 }
 
@@ -61,7 +63,7 @@ main {
 
 /* TIME SECTION */
 .section-time {
-  padding: 1rem;
+  padding: 0.5rem 1rem;
 }
 
 /* Style for Current Day & UTC Time of the Week */
