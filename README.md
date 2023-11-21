@@ -1,5 +1,5 @@
-# stage-one-project
+# HNGx stage-one-project
 Project for STAGE ONE
 
 # live site
-https://1732-stage-one.netlify.app/
+[live site](https://1732-stage-one.netlify.app/)
